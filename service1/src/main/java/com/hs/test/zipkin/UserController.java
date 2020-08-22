@@ -22,7 +22,7 @@ public class UserController {
         logger.info("User id is : " + id);
         String response = service.createCustomer(id);
         logger.info("Customer is created with id: {}", id);
-        return "Customer is created with id:" + response;/
+        return "Customer is created with id:" + response;
     }
 
     @PostMapping(value = "/user")
