@@ -1,0 +1,15 @@
+{
+  "request" : {
+    "urlPath" : "/customer/300",
+    "method" : "POST",
+    "headers" : {
+      "Accept" : {
+        "contains" : "json"
+      }
+    }
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "CustomerNameReponse"
+  }
+}

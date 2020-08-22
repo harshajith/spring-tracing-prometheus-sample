@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: io.zipkin.reporter2:zipkin-sender-amqp-client:2.7.8">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.zipkin.reporter2/zipkin-sender-amqp-client/2.7.8/15779b84e8655142904d50631b9b2bedba1cb97d/zipkin-sender-amqp-client-2.7.8.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.zipkin.reporter2/zipkin-sender-amqp-client/2.7.8/946177ae5f484bf69778db36fbc65b96b0dd3588/zipkin-sender-amqp-client-2.7.8-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

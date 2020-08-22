@@ -1,0 +1,21 @@
+{
+  "request" : {
+    "urlPath" : "/customer",
+    "method" : "POST",
+    "headers" : {
+      "Accept" : {
+        "contains" : "json"
+      }
+    },
+    "bodyPatterns" : [{
+      "equalToJson" : {"name": "harsha", "age": 4}
+    }]
+  },
+  "response" : {
+    "status" : 200,
+    "jsonBody" : {"name": "savein", "age": 8},
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}
