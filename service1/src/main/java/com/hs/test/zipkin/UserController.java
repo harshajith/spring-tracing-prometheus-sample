@@ -19,10 +19,10 @@ public class UserController {
 
     @PostMapping(value = "/user/{id}", produces = MediaType.APPLICATION_JSON_UTF8_VALUE)
     public @ResponseBody String createUser(@PathVariable String id){
-        logger.info("User id is" + id);
+        logger.info("User id is : " + id);
         String response = service.createCustomer(id);
         logger.info("Customer is created with id: {}", id);
-        return "Customer is created with id:" + response;
+        return "Customer is created with id:" + response;/
     }
 
     @PostMapping(value = "/user")
