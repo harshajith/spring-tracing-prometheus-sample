@@ -36,6 +36,9 @@ dependencies {
 	compile 'org.springframework.boot:spring-boot-starter-web'
 	implementation('org.springframework.cloud:spring-cloud-starter-openfeign')
 	implementation('org.springframework.cloud:spring-cloud-starter-zipkin')
+	compile 'org.springframework.boot:spring-boot-starter-actuator'
+	compile 'io.micrometer:micrometer-core:1.4.0'
+	compile 'io.micrometer:micrometer-registry-prometheus:1.4.0'
 	testImplementation('org.springframework.boot:spring-boot-starter-test')
 }
 

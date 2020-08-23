@@ -17,6 +17,7 @@ public class UserController {
     @Autowired
     CustomerService service;
 
+
     @PostMapping(value = "/user/{id}", produces = MediaType.APPLICATION_JSON_UTF8_VALUE)
     public @ResponseBody String createUser(@PathVariable String id){
         logger.info("User id is : " + id);
