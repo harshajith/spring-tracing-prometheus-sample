@@ -35,7 +35,6 @@ ext {
 dependencies {
 	compile 'org.springframework.boot:spring-boot-starter-web'
 	implementation('org.springframework.cloud:spring-cloud-starter-openfeign')
-	implementation('org.springframework.cloud:spring-cloud-starter-sleuth')
 	implementation('org.springframework.cloud:spring-cloud-starter-zipkin')
 	testImplementation('org.springframework.boot:spring-boot-starter-test')
 }
